@@ -1,4 +1,4 @@
-lohmanwestlake
+lohman & westlake
 ==============
 
-The Lohman &amp; Westlake website
+We offer individualized services to guide students and parents through the college or career decision-making process.
