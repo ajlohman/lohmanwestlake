@@ -5,7 +5,7 @@ We offer individualized services to guide students and parents through the colle
 Your future will be brighter with a clear vision and carefully crafted plan.
 
 Services
-==============
+--------------
 
 Choosing a college major and making a career choice are challenging and complex tasks. Your process is made simple with our help.
 
