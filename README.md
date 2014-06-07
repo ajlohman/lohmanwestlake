@@ -1,25 +1,26 @@
 Lohman & Westlake
 ==============
 
-### We offer individualized services to guide students and parents through the college or career decision-making process.
+###We offer individualized services to guide students and parents through the college or career decision-making process.
 Your future will be brighter with a clear vision and carefully crafted plan.
 
 Services
 --------------
 
-Choosing a college major and making a career choice are challenging and complex tasks. Your process is made simple with our help.
+###Choosing a college major and making a career choice are challenging and complex tasks. Your process is made simple with our help.
 
 Services include the following along with any individual help that is needed.
 
-Assessment
+##Assessment
 All clients complete two proven assessments in person during our first meeting.
 
-Myers-Briggs
-Strong Interest Inventory
-Result
+*Myers-Briggs
+*Strong Interest Inventory
+
+##Result
 At a second meeting, we report the results to client and parents and form an Action Plan including suggested major and college suggestions.
 
-Continued support
+##Continued support
 If desired, we continue to provide individualized services until the student graduates college.
 
 These individualized services could include
