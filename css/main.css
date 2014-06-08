@@ -429,11 +429,11 @@ ul {
   }
 }
 .content-main ul.indent {
-  padding-left: 2em;
+  padding-left: 1.3em;
 }
 @media (min-width: 50em) {
   .content-main ul.indent {
-    padding-left: 4em;
+    padding-left: 3.3em;
   }
 }
 @media (min-width: 60em) {
