@@ -425,7 +425,7 @@ ul {
 }
 @media (min-width: 50em) {
   .content-main .indent {
-    padding-left: 3em;
+    padding-left: 2.3em;
   }
 }
 .content-main ul.indent {
