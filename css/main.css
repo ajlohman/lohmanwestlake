@@ -224,7 +224,7 @@ img {
 .hide-sm {
   display: none;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .hide-sm {
     display: block;
   }
@@ -233,7 +233,7 @@ img {
   display: block;
   margin: 0 0 1em 0;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .hide-lg {
     display: none;
   }
@@ -249,7 +249,7 @@ a {
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   a {
     padding-bottom: 0.2em;
   }
@@ -264,9 +264,21 @@ a:hover {
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   a:hover {
     padding-bottom: 0.2em;
+  }
+}
+p,
+ul {
+  font-size: 1em;
+  line-height: 1.4;
+}
+@media (min-width: 50em) {
+  p,
+  ul {
+    font-size: 1.3em;
+    line-height: 1.4;
   }
 }
 .header {
@@ -282,7 +294,7 @@ a:hover {
   clear: both;
   overflow: hidden;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .header,
   .footer {
     padding: 0 1em;
@@ -291,7 +303,7 @@ a:hover {
 .header .main-title,
 .footer .main-title {
   float: left;
-  padding: 20px 0 0 0;
+  padding: 1.3em 0 0 0;
   width: 100%;
   text-align: center;
 }
@@ -305,12 +317,12 @@ a:hover {
   color: #ee696f;
   border-bottom: 1px solid transparent;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .header .main-title,
   .footer .main-title {
     width: 40%;
     text-align: left;
-    padding: 3em 0;
+    padding: 3.2em 0;
   }
 }
 .header .main-nav,
@@ -318,7 +330,7 @@ a:hover {
   float: left;
   width: 100%;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .header .main-nav,
   .footer .main-nav {
     width: 60%;
@@ -329,7 +341,7 @@ a:hover {
   padding: 0;
   text-align: center;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .header .main-nav ul,
   .footer .main-nav ul {
     text-align: right;
@@ -341,7 +353,7 @@ a:hover {
   display: inline;
   padding: 0 5px;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .header .main-nav ul li,
   .footer .main-nav ul li {
     padding: 0 10px;
@@ -356,7 +368,7 @@ a:hover {
   padding-bottom: 0.2em;
   border-bottom: 1px solid transparent;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .header .main-nav a,
   .footer .main-nav a {
     padding-bottom: 0.5em;
@@ -368,7 +380,7 @@ a:hover {
   border-bottom: 1px solid #ee696f;
   padding-bottom: 0.2em;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .header .main-nav a:hover,
   .footer .main-nav a:hover {
     padding-bottom: 0.5em;
@@ -380,7 +392,7 @@ a:hover {
   border-bottom: 1px solid #ee696f;
   padding-bottom: 0.2em;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .header .main-nav a.active,
   .footer .main-nav a.active {
     padding-bottom: 0.5em;
@@ -398,7 +410,7 @@ a:hover {
   padding: 0;
   clear: both;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .main-content {
     padding: 0 1em;
   }
@@ -411,7 +423,7 @@ a:hover {
 .content-main .indent {
   padding-left: 0;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .content-main .indent {
     padding-left: 3em;
   }
@@ -419,17 +431,17 @@ a:hover {
 .content-main ul.indent {
   padding-left: 2em;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .content-main ul.indent {
     padding-left: 4em;
   }
 }
 @media (min-width: 60em) {
   .content-main {
-    padding: 8% 0;
+    padding: 6% 0;
   }
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .content-main {
     width: 60%;
   }
@@ -438,7 +450,7 @@ a:hover {
   float: left;
   width: 100%;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   .content-secondary {
     width: 40%;
   }
@@ -456,22 +468,24 @@ h3 {
 h1.main-title {
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 300;
   background-image: url(../img/lw-logo-3.svg);
   background-position: center 0;
   background-size: 45px;
   background-repeat: no-repeat;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   h1.main-title {
-    background-position: 0 2em;
+    font-size: 21px;
+    background-position: 0 2.2em;
+    background-size: 60px;
   }
 }
 h1.main-title a {
   display: block;
   padding: 2em 0 0 0;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   h1.main-title a {
     padding: 0 0 0 3.5em;
   }
@@ -481,7 +495,7 @@ h1.main-title a:hover {
   display: block;
   padding: 2em 0 0 0;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   h1.main-title a:hover {
     padding: 0 0 0 3.5em;
   }
@@ -492,7 +506,7 @@ h2 {
 h3 {
   font-size: 20px;
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   h3 {
     font-size: 30px;
   }
@@ -508,7 +522,7 @@ h3.square {
   padding-top: 23px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-@media (min-width: 40em) {
+@media (min-width: 50em) {
   h3.circle,
   h3.triangle,
   h3.square {

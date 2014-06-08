@@ -6,7 +6,7 @@
    Base styles
    ========================================================================== */
 
-html,button,input,select,textarea {color: #000000;}
+html,button,input,select,textarea {color: @black;}
 html {
     font-size: 1em;line-height: 1.4;
 }
@@ -45,7 +45,7 @@ img {width:100%;}
 
 .hide-sm {
     display:none;
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         display:block;
     }
 }
@@ -54,7 +54,7 @@ img {width:100%;}
     display:block;
     // padding:2em 0;
     margin:0 0 1em 0;
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         display:none;
     }
 }
@@ -71,6 +71,8 @@ img {width:100%;}
 @green:#c8de7c;
 @blue:#59c3bf;
 
+@lg-screen:50em;
+
 a {
     color:@black;
     border-bottom:1px solid @black;
@@ -81,7 +83,7 @@ a {
     -o-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         padding-bottom:0.2em;
     }
 }
@@ -95,13 +97,18 @@ a:hover {
     -o-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         padding-bottom:0.2em;
     }
 }
 
 
-
+p, ul {
+    font-size: 1em;line-height: 1.4;
+    @media (min-width: @lg-screen) {
+        font-size: 1.3em;line-height: 1.4;
+    }
+}
 
 // containers
 .header {
@@ -116,14 +123,15 @@ a:hover {
     clear:both;
     overflow:hidden;
     // background:pink;
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         padding:@gutters;
     }
     .main-title {
         float:left;
-        padding:20px 0 0 0;
+        padding:1.3em 0 0 0;
         width:100%;
         text-align:center;
+        // background:pink;
         a {
             color:@gray;
             border-bottom:1px solid transparent;
@@ -133,29 +141,29 @@ a:hover {
             color:@red;
             border-bottom:1px solid transparent;
         }
-        @media (min-width: 40em) {
+        @media (min-width: @lg-screen) {
             width:40%;
             text-align:left;
-            padding:3em 0;
+            padding:3.2em 0;
         }
     }
     .main-nav {
         float:left;
         width:100%;
-        @media (min-width: 40em) {
+        @media (min-width: @lg-screen) {
             width:60%;
         }
         ul {
             padding:0;
             text-align:center;
-            @media (min-width: 40em) {
+            @media (min-width: @lg-screen) {
                 text-align:right;
                 padding:3em 0;
             }
             li {
                 display:inline;
                 padding:0 5px;
-                @media (min-width: 40em) {
+                @media (min-width: @lg-screen) {
                     padding:0 10px;
                 }
             }
@@ -166,7 +174,7 @@ a:hover {
             text-decoration:none;
             padding-bottom:0.2em;
             border-bottom:1px solid transparent;
-            @media (min-width: 40em) {
+            @media (min-width: @lg-screen) {
                 padding-bottom:0.5em;
             }
         }
@@ -174,7 +182,7 @@ a:hover {
             color:@red;
             border-bottom:1px solid @red;
             padding-bottom:0.2em;
-            @media (min-width: 40em) {
+            @media (min-width: @lg-screen) {
                 padding-bottom:0.5em;
             }
         }
@@ -182,7 +190,7 @@ a:hover {
             color:@red;
             border-bottom:1px solid @red;
             padding-bottom:0.2em;
-            @media (min-width: 40em) {
+            @media (min-width: @lg-screen) {
                 padding-bottom:0.5em;
             }
         }
@@ -201,7 +209,7 @@ a:hover {
     clear:both;
     // overflow:hidden;
     // background:pink;
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         padding:@gutters;
     }
 }
@@ -212,20 +220,20 @@ a:hover {
     padding:4% 0;
     .indent {
         padding-left:0;
-        @media (min-width: 40em) {
+        @media (min-width: @lg-screen) {
             padding-left:3em;
         }
     }
     ul.indent {
         padding-left:2em;
-        @media (min-width: 40em) {
+        @media (min-width: @lg-screen) {
             padding-left:4em;
         }
     }
     @media (min-width: 60em) {
-        padding:8% 0;
+        padding:6% 0;
     }
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         width: 60%;
     }
 }
@@ -233,13 +241,9 @@ a:hover {
 .content-secondary {
     float:left;
     width:100%;
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         width: 40%;
     }
-}
-    
-p {
-    
 }
 
 h1, h2, h3 {
@@ -254,18 +258,20 @@ h1, h2, h3 {
 h1.main-title {
     font-size: 16px;
     text-transform:uppercase;
-    font-weight:700;
+    font-weight:300;
     background-image: url(../img/lw-logo-3.svg);
     background-position: center 0;
     background-size:45px;
     background-repeat:no-repeat;
-    @media (min-width: 40em) {
-        background-position: 0 2em;
+    @media (min-width: @lg-screen) {
+        font-size: 21px;
+        background-position: 0 2.2em;
+        background-size:60px;
     }
     a {
         display: block;
         padding:2em 0 0 0;
-        @media (min-width: 40em) {
+        @media (min-width: @lg-screen) {
             padding:0 0 0 3.5em;
         }
     }
@@ -273,7 +279,7 @@ h1.main-title {
         border-bottom:transparent;
         display: block;
         padding:2em 0 0 0;
-        @media (min-width: 40em) {
+        @media (min-width: @lg-screen) {
             padding:0 0 0 3.5em;
         }
     }
@@ -285,7 +291,7 @@ h2 {
 
 h3 {
     font-size:20px;
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         font-size:30px;
     }
 }
@@ -298,7 +304,7 @@ h3.circle, h3.triangle, h3.square {
     padding-left: 30px;
     padding-top:23px;
     border-top:1px solid rgba(0,0,0,0.1);
-    @media (min-width: 40em) {
+    @media (min-width: @lg-screen) {
         background-position: 0 23px;
         background-size:28px;
         padding-top:20px;
