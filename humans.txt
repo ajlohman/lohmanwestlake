@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Andrew Lohman -- designer,developer -- @ajlohman
+
+# THANKS
+
+    Dee Lohman and Becky Westalke
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery
