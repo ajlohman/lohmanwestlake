@@ -6,7 +6,7 @@
    Base styles
    ========================================================================== */
 
-html,button,input,select,textarea {color: @black;}
+html,button,input,select,textarea {color: @gray;}
 html {
     font-size: 1em;line-height: 1.4;
 }
@@ -16,7 +16,7 @@ textarea {resize: vertical;}
 
 body {
     font-family:'Lato', sans-serif;
-    font-weight:300;
+    font-weight:400;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     background: #f4f4e6;
@@ -65,7 +65,7 @@ img {width:100%;}
 @gutters:0 1em;
 @white:#ffffff;
 @black:#000000;
-@gray:#333333;
+@gray:#555555;
 @gray-light:#cccccc;
 @red:#ee696f;
 @green:#c8de7c;
@@ -112,7 +112,7 @@ p, ul {
 
 // containers
 .header {
-    border-bottom:3px solid @black;
+    border-bottom:3px solid @gray;
 }
 .header, .footer {
     width: 100%;
@@ -122,7 +122,6 @@ p, ul {
     padding:0;
     clear:both;
     overflow:hidden;
-    // background:pink;
     @media (min-width: @lg-screen) {
         padding:@gutters;
     }
@@ -169,7 +168,7 @@ p, ul {
             }
         }
         a {
-            color:@black;
+            color:@gray;
             font-size: 1em;line-height: 1.4;
             text-decoration:none;
             padding-bottom:0.2em;
@@ -197,7 +196,7 @@ p, ul {
     }
 }
 .footer {
-    border-top:3px solid @black;
+    border-top:3px solid @gray;
     margin-bottom:2em;
 }
 .main-content {
@@ -252,13 +251,13 @@ h1, h2, h3 {
     color: inherit;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-weight:300;
+    font-weight:inherit;
 }
 
 h1.main-title {
     font-size: 16px;
     text-transform:uppercase;
-    font-weight:300;
+    font-weight:inherit;
     background-image: url(../img/lw-logo-3.svg);
     background-position: center 0;
     background-size:45px;

@@ -173,7 +173,7 @@ button,
 input,
 select,
 textarea {
-  color: #000000;
+  color: #555555;
 }
 html {
   font-size: 1em;
@@ -195,7 +195,7 @@ textarea {
 }
 body {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   background: #f4f4e6;
@@ -282,7 +282,7 @@ ul {
   }
 }
 .header {
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid #555555;
 }
 .header,
 .footer {
@@ -309,7 +309,7 @@ ul {
 }
 .header .main-title a,
 .footer .main-title a {
-  color: #333333;
+  color: #555555;
   border-bottom: 1px solid transparent;
 }
 .header .main-title a:hover,
@@ -361,7 +361,7 @@ ul {
 }
 .header .main-nav a,
 .footer .main-nav a {
-  color: #000000;
+  color: #555555;
   font-size: 1em;
   line-height: 1.4;
   text-decoration: none;
@@ -399,7 +399,7 @@ ul {
   }
 }
 .footer {
-  border-top: 3px solid #000000;
+  border-top: 3px solid #555555;
   margin-bottom: 2em;
 }
 .main-content {
@@ -463,12 +463,12 @@ h3 {
   color: inherit;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: inherit;
 }
 h1.main-title {
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: inherit;
   background-image: url(../img/lw-logo-3.svg);
   background-position: center 0;
   background-size: 45px;
