@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Lohman & Westlake
 ==============
 
@@ -6,4 +6,3 @@ Lohman & Westlake
 Your future will be brighter with a clear vision and carefully crafted plan.
 
 =======
->>>>>>> master
