@@ -420,6 +420,11 @@ ul {
   width: 100%;
   padding: 4% 0;
 }
+@media (min-width: 50em) {
+  .content-main {
+    width: 60%;
+  }
+}
 .content-main .indent {
   padding-left: 0;
 }
@@ -439,11 +444,6 @@ ul {
 @media (min-width: 60em) {
   .content-main {
     padding: 6% 0;
-  }
-}
-@media (min-width: 50em) {
-  .content-main {
-    width: 60%;
   }
 }
 .content-secondary {
@@ -540,4 +540,24 @@ h3.triangle {
 }
 h3.square {
   background-image: url(../img/square.svg);
+}
+.copyright {
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+@media (min-width: 50em) {
+  .copyright {
+    width: 20%;
+  }
+}
+.footer-info {
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+@media (min-width: 50em) {
+  .footer-info {
+    width: 80%;
+  }
 }

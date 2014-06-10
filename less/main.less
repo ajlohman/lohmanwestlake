@@ -217,6 +217,9 @@ p, ul {
     float:left;
     width:100%;
     padding:4% 0;
+    @media (min-width: @lg-screen) {
+        width: 60%;
+    }
     .indent {
         padding-left:0;
         @media (min-width: @lg-screen) {
@@ -231,9 +234,6 @@ p, ul {
     }
     @media (min-width: 60em) {
         padding:6% 0;
-    }
-    @media (min-width: @lg-screen) {
-        width: 60%;
     }
 }
 
@@ -322,8 +322,23 @@ h3.square {
 }
 
 
+.copyright {
+    float:left;
+    width:100%;
+    padding:0;
+    @media (min-width: @lg-screen) {
+        width: 20%;
+    }
+}
 
-
+.footer-info {
+    float:left;
+    width:100%;
+    padding:0;
+    @media (min-width: @lg-screen) {
+        width: 80%;
+    }
+}
 
 
 
