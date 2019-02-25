@@ -5368,6 +5368,11 @@ img {
 .logo {
   max-width: 150px;
 }
+@media (max-width: 40rem) {
+  .logo {
+    max-width: 75px;
+  }
+}
 .logo-footer {
   max-width: 75px;
 }
@@ -5389,8 +5394,9 @@ main section article,
 footer section article {
   margin: 10px 0;
 }
-h2 {
-  border-top: 3px solid black;
+.intro,
+.contact {
+  border-top: 3px solid #14a34c;
   padding-top: 40px;
 }
 h3 {
@@ -5398,9 +5404,9 @@ h3 {
   padding-top: 20px;
 }
 footer > div {
-  border-top: 3px solid black;
+  border-top: 3px solid #14a34c;
   padding-top: 40px;
 }
 p {
-  padding: 10px 0;
+  padding-bottom: 10px;
 }

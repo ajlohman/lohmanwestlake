@@ -50,7 +50,12 @@ img {width:100%;}
 
 .logo {
   max-width: 150px;
+  @media (max-width: 40rem) {
+    max-width: 75px;
+  }
 }
+
+
 
 .logo-footer {
   max-width: 75px;
@@ -71,9 +76,13 @@ header, main, footer {
   }
 }
 
-h2 {
-  border-top: 3px solid black;
+.intro, .contact {
+  border-top: 3px solid #14a34c;
   padding-top: 40px;
+}
+
+h2 {
+
 }
 
 h3 {
@@ -82,10 +91,10 @@ h3 {
 }
 
 footer > div {
-  border-top: 3px solid black;
+  border-top: 3px solid #14a34c;
   padding-top: 40px;
 }
 
 p {
-  padding: 10px 0;
+  padding-bottom: 10px;
 }
